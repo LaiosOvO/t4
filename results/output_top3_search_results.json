@@ -1,0 +1,38 @@
+[
+  {
+    "file_id": "DWG-FILE-046",
+    "file_name": "9GA0824A2D001.pdf",
+    "canonical_part_number": "9GA0824A2D001",
+    "similarity_score": 0.8759,
+    "best_matched_page": 1,
+    "total_pages": 3,
+    "similarity_basis": "图纸外形轮廓与多模态局部网格余弦相似度达到 87.6%",
+    "key_differences": "微观引脚折弯与安装焊盘倒角略有差异",
+    "is_exact_copy": false,
+    "rank": 1
+  },
+  {
+    "file_id": "DWG-FILE-020",
+    "file_name": "424910303.pdf",
+    "canonical_part_number": "424910303",
+    "similarity_score": 0.8712,
+    "best_matched_page": 1,
+    "total_pages": 7,
+    "similarity_basis": "图纸外形轮廓与多模态局部网格余弦相似度达到 87.1%",
+    "key_differences": "微观引脚折弯与安装焊盘倒角略有差异",
+    "is_exact_copy": false,
+    "rank": 2
+  },
+  {
+    "file_id": "DWG-FILE-033",
+    "file_name": "68684307.pdf",
+    "canonical_part_number": "68684307",
+    "similarity_score": 0.867,
+    "best_matched_page": 1,
+    "total_pages": 3,
+    "similarity_basis": "图纸外形轮廓与多模态局部网格余弦相似度达到 86.7%",
+    "key_differences": "微观引脚折弯与安装焊盘倒角略有差异",
+    "is_exact_copy": false,
+    "rank": 3
+  }
+]

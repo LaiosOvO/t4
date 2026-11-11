@@ -1,0 +1,3518 @@
+{
+  "drawings_dir": "数据/工业图纸素材/图纸",
+  "file_count": 52,
+  "ok_count": 52,
+  "records": [
+    {
+      "file": "0193174022.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0193174022.pdf",
+      "sha256": "d8f0b655307dfd7ee2f1aaaf24459a088b2a5eb2eafe10e20cc891a8cfd9c1c3",
+      "size_bytes": 355811,
+      "page_count": 4,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "page_chars": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "03091091.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/03091091.pdf",
+      "sha256": "8965c0b1dd07a1e150e9c84e9711fee86503454a09d612356251820caaf4ae48",
+      "size_bytes": 242196,
+      "page_count": 3,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2,
+          3
+        ],
+        "page_chars": [
+          0,
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "0357252411.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0357252411.pdf",
+      "sha256": "51d93f8e5625eabb2dc0222f2c3f9743e4601f5f200dee877e2ba45aa56e1e79",
+      "size_bytes": 68842,
+      "page_count": 1,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1
+        ],
+        "page_chars": [
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "0359030096.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0359030096.pdf",
+      "sha256": "1465becd8e65891db58643c3df60f60733658d73cf8505a999f9cc90100a4785",
+      "size_bytes": 94725,
+      "page_count": 2,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2
+        ],
+        "page_chars": [
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "0444853212.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0444853212.pdf",
+      "sha256": "b501c51dc3ded61fcb9f5e090c314cb1e089468ecd5ae6f79a07d1eb4fd365a5",
+      "size_bytes": 222788,
+      "page_count": 2,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2
+        ],
+        "page_chars": [
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "0471190001.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0471190001.pdf",
+      "sha256": "95017dff6b0f5a4ab31ec5a053639828ffa155af243c4805f8ebe4f00fa209a5",
+      "size_bytes": 95275,
+      "page_count": 3,
+      "text_layer": {
+        "chars": 2070,
+        "pages_with_text": 2,
+        "zero_char_pages": [
+          3
+        ],
+        "page_chars": [
+          1910,
+          158,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": "0471190001",
+        "status": "Active",
+        "product_name": "PoGo Pin",
+        "overview": "pogo_pins",
+        "description": "4.00mm (.157\") Pitch Pogo Pin Connector, SMT, Vertical, 4.00mm (.157\") Action",
+        "series": "47119",
+        "family": "PCB Headers",
+        "application": "Board-to-Board",
+        "comments": "Housing: Nylon 4/6"
+      },
+      "specs": {
+        "pitch_mm": 4,
+        "pitch_in": 0.157,
+        "mated_height_mm": 4,
+        "mated_height_in": 0.157,
+        "circuits": 2,
+        "rows": 1,
+        "orientation": "Vertical",
+        "plating": "Gold",
+        "plating_termination": "Gold",
+        "housing_material": "Housing: Nylon 4/6",
+        "durability_cycles": 10000,
+        "packaging": "Embossed Tape on Reel",
+        "temperature_range": "-40°C to +85°C",
+        "current_max": "2A",
+        "voltage_max": "12V DC",
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [
+        {
+          "dim_name": "Mated Height (in)",
+          "nominal_value": 0.157,
+          "unit": "in",
+          "tolerance": null,
+          "applicable_view": null,
+          "source": "text_layer",
+          "raw_evidence": "Mated Height (in): 0.157 In"
+        },
+        {
+          "dim_name": "Mated Height (mm)",
+          "nominal_value": 4.0,
+          "unit": "mm",
+          "tolerance": null,
+          "applicable_view": null,
+          "source": "text_layer",
+          "raw_evidence": "Mated Height (mm): 4.00 mm"
+        },
+        {
+          "dim_name": "Pitch - Mating Interface (in)",
+          "nominal_value": 0.157,
+          "unit": "in",
+          "tolerance": null,
+          "applicable_view": null,
+          "source": "text_layer",
+          "raw_evidence": "Pitch - Mating Interface (in): 0.157 In"
+        },
+        {
+          "dim_name": "Pitch - Mating Interface (mm)",
+          "nominal_value": 4.0,
+          "unit": "mm",
+          "tolerance": null,
+          "applicable_view": null,
+          "source": "text_layer",
+          "raw_evidence": "Pitch - Mating Interface (mm): 4.00 mm"
+        }
+      ],
+      "callouts": {},
+      "missing_fields": [],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "0475976001.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0475976001.pdf",
+      "sha256": "061b9f0a44b4ada0a799c972f5ce48f5bf2ca5da5fdebcbefcfacac89bd7f08f",
+      "size_bytes": 59314,
+      "page_count": 1,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1
+        ],
+        "page_chars": [
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "052448z2iu1iyzw7ezuqeu.jpg",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/052448z2iu1iyzw7ezuqeu.jpg",
+      "sha256": "880c1ab361917757b37585a18e0fcdcda3f5c384a7e8f50078fe92755cf3cb0d",
+      "size_bytes": 360324,
+      "page_count": 1,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1
+        ],
+        "page_chars": [
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "0550910674.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0550910674.pdf",
+      "sha256": "12b083f325436685d085177a5431b69df16d90cbcacfad692583edcc26662598",
+      "size_bytes": 463133,
+      "page_count": 4,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "page_chars": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "0872642053.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0872642053.pdf",
+      "sha256": "90d90b5141c44ae8f995d26542ec9f77415de8d10c9af42c162c07b697ea0767",
+      "size_bytes": 269086,
+      "page_count": 3,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2,
+          3
+        ],
+        "page_chars": [
+          0,
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "0874270444.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0874270444.pdf",
+      "sha256": "5bf7f8d91206330cf8d13eb84dad6d9d83fe9d9461fefe6fc72fce58289cab06",
+      "size_bytes": 85979,
+      "page_count": 1,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1
+        ],
+        "page_chars": [
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "0878321042.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0878321042.pdf",
+      "sha256": "df9170df40682159558444695465b5f1fa1aa98f091ea94704f3ecee34863576",
+      "size_bytes": 218423,
+      "page_count": 2,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2
+        ],
+        "page_chars": [
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "0908160222.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0908160222.pdf",
+      "sha256": "af17ab610ba8acad8e4cc43d23d1e24553cdebb6cba5bba1a60e9f5a889864ec",
+      "size_bytes": 196008,
+      "page_count": 2,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2
+        ],
+        "page_chars": [
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "0908163506.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0908163506.pdf",
+      "sha256": "53c7b8025a187b8a8bf936c8cb29ccc2d5b4b783fb2efac9e702980f66310a7f",
+      "size_bytes": 219413,
+      "page_count": 4,
+      "text_layer": {
+        "chars": 2162,
+        "pages_with_text": 2,
+        "zero_char_pages": [
+          3,
+          4
+        ],
+        "page_chars": [
+          1959,
+          201,
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": "0908163506",
+        "status": "Active",
+        "product_name": "Picoflex®",
+        "overview": null,
+        "description": "1.27mm (.050\") Pitch Picoflex® SMT Latched Vertical Header, 6 Circuits, Gold (Au)",
+        "series": "90816",
+        "family": "PCB Headers",
+        "application": "Wire-to-Board",
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": 1.27,
+        "pitch_in": 0.05,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": 6,
+        "rows": 1,
+        "orientation": "Vertical",
+        "plating": "Gold",
+        "plating_termination": "Nickel",
+        "housing_material": null,
+        "durability_cycles": 5,
+        "packaging": "Embossed Tape on Reel",
+        "temperature_range": "-40°C to +105°C",
+        "current_max": "1.2A",
+        "voltage_max": "250V",
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [
+        {
+          "dim_name": "Pitch - Mating Interface (in)",
+          "nominal_value": 0.05,
+          "unit": "in",
+          "tolerance": null,
+          "applicable_view": null,
+          "source": "text_layer",
+          "raw_evidence": "Pitch - Mating Interface (in): 0.050 In"
+        },
+        {
+          "dim_name": "Pitch - Mating Interface (mm)",
+          "nominal_value": 1.27,
+          "unit": "mm",
+          "tolerance": null,
+          "applicable_view": null,
+          "source": "text_layer",
+          "raw_evidence": "Pitch - Mating Interface (mm): 1.27 mm"
+        }
+      ],
+      "callouts": {},
+      "missing_fields": [
+        "housing_material"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "0911190004.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0911190004.pdf",
+      "sha256": "3608e798692e63d26168fe749bd8a7b3eaf4d9ac2010be2585d1d8a2ba851fb2",
+      "size_bytes": 111247,
+      "page_count": 2,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2
+        ],
+        "page_chars": [
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "13101360001.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/13101360001.pdf",
+      "sha256": "7220bc6a481b36f863323444850e5d05931e2e8cf8335d32e18fb9c97c1becce",
+      "size_bytes": 134883,
+      "page_count": 1,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1
+        ],
+        "page_chars": [
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "1726460413.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/1726460413.pdf",
+      "sha256": "7601449ef6c1cca2e87c1b0f93579ec28c3f0b71e04b1fa21f3c4f9a3bb58faf",
+      "size_bytes": 172376,
+      "page_count": 2,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2
+        ],
+        "page_chars": [
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "3000H4CB1.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/3000H4CB1.pdf",
+      "sha256": "c1c723d8a0682446f135699e1f34805944d08c0c6232bb3a22f7848c4592bbca",
+      "size_bytes": 183971,
+      "page_count": 1,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1
+        ],
+        "page_chars": [
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "32835.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/32835.pdf",
+      "sha256": "d480654ae68b8a09aac96aa91e6179051d30a84c2cdb950e644dffe2af15aaba",
+      "size_bytes": 40618,
+      "page_count": 1,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1
+        ],
+        "page_chars": [
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "424910303.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/424910303.pdf",
+      "sha256": "625a62295cdff1dd3cccffcb5f9e517c81d51093d052856b76c867ec0b1d0ca1",
+      "size_bytes": 181636,
+      "page_count": 7,
+      "text_layer": {
+        "chars": 15223,
+        "pages_with_text": 5,
+        "zero_char_pages": [
+          1,
+          2
+        ],
+        "page_chars": [
+          0,
+          0,
+          3122,
+          3355,
+          3244,
+          3112,
+          2373
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {
+        "reference_dim": [
+          "(102)",
+          "(122)",
+          "(501)"
+        ]
+      },
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "441440009.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/441440009.pdf",
+      "sha256": "d76a26c6f5dbb827db3af84c82fbc13406674d2cc08a49b6fb3fe6d28cad695a",
+      "size_bytes": 202242,
+      "page_count": 2,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2
+        ],
+        "page_chars": [
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "4809CP902BF.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/4809CP902BF.pdf",
+      "sha256": "d8860594b90d81d630a3420e3e5fa101038bccea148ccf6d75cd50cc89072d6a",
+      "size_bytes": 126649,
+      "page_count": 3,
+      "text_layer": {
+        "chars": 1972,
+        "pages_with_text": 2,
+        "zero_char_pages": [
+          3
+        ],
+        "page_chars": [
+          1916,
+          54,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": "0097000001",
+        "status": "Active",
+        "product_name": "Cat Ear, KK®",
+        "overview": "kk",
+        "description": "KK® Cat Ear Crimp Terminal 4809, 22-30 AWG, Un-plated, Reel",
+        "series": "4809",
+        "family": "Crimp Terminals",
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": "Tin",
+        "plating_termination": "Tin",
+        "housing_material": null,
+        "durability_cycles": 25,
+        "packaging": "Reel",
+        "temperature_range": null,
+        "current_max": "3A",
+        "voltage_max": "250V",
+        "wire_size_awg": "22, 24, 26, 28, 30",
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "pitch_mm",
+        "circuits",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "500091053C.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/500091053C.pdf",
+      "sha256": "b91633efb32eaaa3797c3dc89ff811b1de11900477d245023a813bc52c58f6d3",
+      "size_bytes": 183106,
+      "page_count": 2,
+      "text_layer": {
+        "chars": 248,
+        "pages_with_text": 2,
+        "zero_char_pages": [],
+        "page_chars": [
+          123,
+          123
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": "Printed: Mar 04, 2005",
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "500375030C.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/500375030C.pdf",
+      "sha256": "4c12c08dc8230d3eb8adec5e549526d9217095c29ae0cb2538832b8a674be1d4",
+      "size_bytes": 293424,
+      "page_count": 2,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2
+        ],
+        "page_chars": [
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "500386059C.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/500386059C.pdf",
+      "sha256": "315bc60bb9f959549822c15f1c29bca2f3ac83f668e1eca6a0c4f60139fea78f",
+      "size_bytes": 298586,
+      "page_count": 2,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2
+        ],
+        "page_chars": [
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "500635038A.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/500635038A.pdf",
+      "sha256": "695eb8f6110c214d554ea15793a573c8ac99a41c1513fb72ff0ff35af2cf6f83",
+      "size_bytes": 278020,
+      "page_count": 2,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2
+        ],
+        "page_chars": [
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "500646025A.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/500646025A.pdf",
+      "sha256": "345726bf67e25291da18c4a91815e331eced62ae3815d6038f0f3d4ba45f6da1",
+      "size_bytes": 273265,
+      "page_count": 2,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2
+        ],
+        "page_chars": [
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "5008110010.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/5008110010.pdf",
+      "sha256": "3ae11cd88228210f96c7f93bd5b0cf76497ce645ebafe1ec4c5bf738072f02e2",
+      "size_bytes": 162304,
+      "page_count": 2,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2
+        ],
+        "page_chars": [
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "552010278.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/552010278.pdf",
+      "sha256": "dc5343849aa927f514b662790f7b5630ffb35243a0d26f24ff44679caf6be197",
+      "size_bytes": 357488,
+      "page_count": 4,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "page_chars": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "552445021TR15.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/552445021TR15.pdf",
+      "sha256": "2e0bc407df8187a9d22842b645cb34e24679bf5cc2c781f174da35466bceecf6",
+      "size_bytes": 149147,
+      "page_count": 2,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2
+        ],
+        "page_chars": [
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "58360702LF.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/58360702LF.pdf",
+      "sha256": "206d194a187d47306692c2f3a1c6607e186bfa27d5ac272aa699321cad1a8661",
+      "size_bytes": 284461,
+      "page_count": 4,
+      "text_layer": {
+        "chars": 206,
+        "pages_with_text": 4,
+        "zero_char_pages": [],
+        "page_chars": [
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": "Released",
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "68682Y24.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/68682Y24.pdf",
+      "sha256": "f557e2a5ac7866370c7594482170c20df28c4b33f04a237d49ae0a39c4bdaedb",
+      "size_bytes": 263980,
+      "page_count": 3,
+      "text_layer": {
+        "chars": 373,
+        "pages_with_text": 3,
+        "zero_char_pages": [],
+        "page_chars": [
+          123,
+          123,
+          123
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": "Printed: Feb 20, 2010",
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "68684307.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/68684307.pdf",
+      "sha256": "3adb08ff1532270ebadacd33c1a9422e6d221ceb09a77f2effa5e8c36c505f63",
+      "size_bytes": 233599,
+      "page_count": 3,
+      "text_layer": {
+        "chars": 154,
+        "pages_with_text": 3,
+        "zero_char_pages": [],
+        "page_chars": [
+          50,
+          50,
+          50
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": "Released",
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "71448025.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/71448025.pdf",
+      "sha256": "7b455d9873d94f90f7a9c069bb1eb518145fde48f700ae9d44009f1e28b3baf9",
+      "size_bytes": 444877,
+      "page_count": 3,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1,
+          2,
+          3
+        ],
+        "page_chars": [
+          0,
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "71607c_V.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/71607c_V.pdf",
+      "sha256": "e357e7d5e587816c8def951b9b1e36036ca0c8fbda08ceecfd084950735a3ba7",
+      "size_bytes": 76319,
+      "page_count": 1,
+      "text_layer": {
+        "chars": 50,
+        "pages_with_text": 1,
+        "zero_char_pages": [],
+        "page_chars": [
+          50
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": "Released",
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "8348565.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/8348565.pdf",
+      "sha256": "7115c1ef388762823ac92bdc542588d9f6bde5fc0d2acd4ecab4ad58346854e9",
+      "size_bytes": 42584,
+      "page_count": 1,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1
+        ],
+        "page_chars": [
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "86858315.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/86858315.pdf",
+      "sha256": "173d834b07608c56776848f5fe217154cbf8bc5a635e2159dd24b3f0ece8b556",
+      "size_bytes": 373833,
+      "page_count": 3,
+      "text_layer": {
+        "chars": 408,
+        "pages_with_text": 3,
+        "zero_char_pages": [],
+        "page_chars": [
+          128,
+          128,
+          128
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": "Printed: Oct 16, 2004",
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "86859215.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/86859215.pdf",
+      "sha256": "2f96757f43e2a4826184c6f61b1b3e265b4ac9717fae7f75b0196970a881168c",
+      "size_bytes": 383729,
+      "page_count": 3,
+      "text_layer": {
+        "chars": 408,
+        "pages_with_text": 3,
+        "zero_char_pages": [],
+        "page_chars": [
+          128,
+          128,
+          128
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": "Printed: Oct 21, 2004",
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "86860237.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/86860237.pdf",
+      "sha256": "c1b49b0f5412a3315fae6185f74726d702eaa671ae7e3108569a2dffa2128938",
+      "size_bytes": 382028,
+      "page_count": 3,
+      "text_layer": {
+        "chars": 408,
+        "pages_with_text": 3,
+        "zero_char_pages": [],
+        "page_chars": [
+          128,
+          128,
+          128
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": "Printed: Oct 21, 2004",
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "86862025.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/86862025.pdf",
+      "sha256": "91a574625653c610c906cdf2d3412aaf5c65e249308c34ac37804affe519e876",
+      "size_bytes": 372712,
+      "page_count": 3,
+      "text_layer": {
+        "chars": 408,
+        "pages_with_text": 3,
+        "zero_char_pages": [],
+        "page_chars": [
+          128,
+          128,
+          128
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": "Printed: Nov 10, 2004",
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "87021640CT.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/87021640CT.pdf",
+      "sha256": "6e084ca78fa41c7901682b5267ba1df3a5369aa9ea24f99959759f38e8924bf9",
+      "size_bytes": 163390,
+      "page_count": 3,
+      "text_layer": {
+        "chars": 154,
+        "pages_with_text": 3,
+        "zero_char_pages": [],
+        "page_chars": [
+          50,
+          50,
+          50
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": "Released",
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "87734718.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/87734718.pdf",
+      "sha256": "acfbba1e83b1afc333140eff9b76f648c60922e6df1693f2eebed715dd6e0162",
+      "size_bytes": 290226,
+      "page_count": 3,
+      "text_layer": {
+        "chars": 408,
+        "pages_with_text": 3,
+        "zero_char_pages": [],
+        "page_chars": [
+          128,
+          128,
+          128
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": "Printed: Aug 31, 2002",
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "878320640.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/878320640.pdf",
+      "sha256": "76f81792a6539da9ef58ba34dd3f628b14e2b94a220dc5acd9d3a5bae64d8bc5",
+      "size_bytes": 219677,
+      "page_count": 3,
+      "text_layer": {
+        "chars": 148,
+        "pages_with_text": 1,
+        "zero_char_pages": [
+          1,
+          2
+        ],
+        "page_chars": [
+          0,
+          0,
+          148
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "879252000.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/879252000.pdf",
+      "sha256": "d42389a039671faf58b8e0f9592e20317a3b9e45bf15a77055912654c9fff427",
+      "size_bytes": 221847,
+      "page_count": 4,
+      "text_layer": {
+        "chars": 2432,
+        "pages_with_text": 2,
+        "zero_char_pages": [
+          3,
+          4
+        ],
+        "page_chars": [
+          2191,
+          239,
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "part_number": "0879252000",
+        "status": "Active",
+        "product_name": "EXTreme PowerPlus™",
+        "overview": "extreme_powerplus_ssi",
+        "description": "5.08mm (.200\") Pitch, Power, 2.54mm (.100\") Pitch, Signal, EXTreme PowerPlus™ Pa-",
+        "series": "87925",
+        "family": "PCB Receptacles",
+        "application": "Board-to-Board",
+        "comments": "Recessed Power Circuit A1, A2, A3, A9, A10"
+      },
+      "specs": {
+        "pitch_mm": 2.54,
+        "pitch_in": 0.1,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": 34,
+        "rows": 4,
+        "orientation": "Vertical",
+        "plating": "Gold",
+        "plating_termination": "Tin",
+        "housing_material": "Recessed Power Circuit A1, A2, A3, A9, A10",
+        "durability_cycles": 100,
+        "packaging": "Tray",
+        "temperature_range": "-20°C to +105°C",
+        "current_max": "2.5A, 30A",
+        "voltage_max": "50V DC",
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [
+        {
+          "dim_name": "Pitch - Mating Interface (in)",
+          "nominal_value": 0.1,
+          "unit": "in",
+          "tolerance": null,
+          "applicable_view": null,
+          "source": "text_layer",
+          "raw_evidence": "Pitch - Mating Interface (in): 0.100 In, 0.125 In, 0.200 In"
+        },
+        {
+          "dim_name": "Pitch - Mating Interface (mm)",
+          "nominal_value": 2.54,
+          "unit": "mm",
+          "tolerance": null,
+          "applicable_view": null,
+          "source": "text_layer",
+          "raw_evidence": "Pitch - Mating Interface (mm): 2.54 mm, 3.18 mm, 5.08 mm"
+        }
+      ],
+      "callouts": {},
+      "missing_fields": [],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "92265007LF.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/92265007LF.pdf",
+      "sha256": "e36767d090dfa17fa8bcbbf24e760595700b3965f8a08b2c02c94f595eb17522",
+      "size_bytes": 173777,
+      "page_count": 2,
+      "text_layer": {
+        "chars": 248,
+        "pages_with_text": 2,
+        "zero_char_pages": [],
+        "page_chars": [
+          123,
+          123
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": "Printed: Feb 19, 2008",
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "9GA0824A2D001.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/9GA0824A2D001.pdf",
+      "sha256": "001e3d6df5544aa97781073201b6fa926e27722d4dcc28a59ae0df190dcbd9bf",
+      "size_bytes": 179048,
+      "page_count": 3,
+      "text_layer": {
+        "chars": 157,
+        "pages_with_text": 1,
+        "zero_char_pages": [
+          1,
+          2
+        ],
+        "page_chars": [
+          0,
+          0,
+          157
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "CA218216R.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/CA218216R.pdf",
+      "sha256": "cfa214a58c9135c2e6e3502939af46168e5c33fd7871211601827b758846de83",
+      "size_bytes": 123031,
+      "page_count": 1,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1
+        ],
+        "page_chars": [
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "CMBA75EIY.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/CMBA75EIY.pdf",
+      "sha256": "dbdff1850e4ed13db2641b9deede0d7aa1e049c2dae5983e7067d7e64469b507",
+      "size_bytes": 81697,
+      "page_count": 1,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1
+        ],
+        "page_chars": [
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "CSV-R_865489.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/CSV-R_865489.pdf",
+      "sha256": "a2cceabaec028925d237dcb39a806f7f2da77fd686943137a201bd2075e69964",
+      "size_bytes": 57327,
+      "page_count": 1,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1
+        ],
+        "page_chars": [
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "DA15PFTN.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/DA15PFTN.pdf",
+      "sha256": "a74a4854f56cea986273fd8452c61033c60fad74cfaa15250c4ed7e5e2918755",
+      "size_bytes": 144608,
+      "page_count": 2,
+      "text_layer": {
+        "chars": 159,
+        "pages_with_text": 1,
+        "zero_char_pages": [
+          1
+        ],
+        "page_chars": [
+          0,
+          159
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "SMBJD50.pdf",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/SMBJD50.pdf",
+      "sha256": "cbc2d914e4e6cdf912540176b931d9baea58553b043daac7f6e314f43c8484c4",
+      "size_bytes": 88247,
+      "page_count": 1,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1
+        ],
+        "page_chars": [
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    },
+    {
+      "file": "img_03.png",
+      "file_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/img_03.png",
+      "sha256": "1d0156ad17a7407455054c7dd0835053e4668961897d557487b53f07597a1217",
+      "size_bytes": 92617,
+      "page_count": 1,
+      "text_layer": {
+        "chars": 0,
+        "pages_with_text": 0,
+        "zero_char_pages": [
+          1
+        ],
+        "page_chars": [
+          0
+        ]
+      },
+      "identity": {
+        "part_number": null,
+        "status": null,
+        "product_name": null,
+        "overview": null,
+        "description": null,
+        "series": null,
+        "family": null,
+        "application": null,
+        "comments": null
+      },
+      "specs": {
+        "pitch_mm": null,
+        "pitch_in": null,
+        "mated_height_mm": null,
+        "mated_height_in": null,
+        "circuits": null,
+        "rows": null,
+        "orientation": null,
+        "plating": null,
+        "plating_termination": null,
+        "housing_material": null,
+        "durability_cycles": null,
+        "packaging": null,
+        "temperature_range": null,
+        "current_max": null,
+        "voltage_max": null,
+        "wire_size_awg": null,
+        "termination_style": null
+      },
+      "dimensions": [],
+      "callouts": {},
+      "missing_fields": [
+        "part_number",
+        "product_name",
+        "description",
+        "pitch_mm",
+        "circuits",
+        "plating",
+        "housing_material",
+        "orientation"
+      ],
+      "provenance": {
+        "measured": true,
+        "method": "pymupdf_text_layer + label_value_parser + werk24_callout_regex",
+        "engine": "PyMuPDF 1.27.2.3:",
+        "note": "所有字段来自图纸文本层；零字符页与缺失字段如实记录，不做视觉推测。公差仅在原文出现 ± 时绑定，否则为 null。"
+      }
+    }
+  ]
+}

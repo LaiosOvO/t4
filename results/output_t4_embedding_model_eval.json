@@ -1,0 +1,214 @@
+{
+  "generated_at": "2026-11-11 04:15:01",
+  "gallery_pages": 122,
+  "queries": {
+    "t1": 52,
+    "t2": 38,
+    "t3": 20
+  },
+  "device": "mps",
+  "total_seconds": 54.1,
+  "models": [
+    {
+      "model": "facebook/dinov2-base",
+      "note": "Meta DINOv2 几何自监督 (768d)",
+      "runnable": true,
+      "kind": "dinov",
+      "dimension": 768,
+      "params_million": 86.6,
+      "device": "mps",
+      "model_load_seconds": 374.7,
+      "gallery_size": 122,
+      "encode_seconds": 7.84,
+      "avg_encode_ms_per_image": 64.3,
+      "has_text_encoder": false,
+      "t1_self_recall": {
+        "recall@1": 98.08,
+        "recall@3": 100.0,
+        "mrr": 0.9904,
+        "n_queries": 52
+      },
+      "t2_page_group_recall": {
+        "recall@1": 15.79,
+        "recall@3": 21.05,
+        "mrr": 0.2432,
+        "n_queries": 38
+      },
+      "t3_cross_modal": {
+        "runnable": false,
+        "reason": "纯视觉模型无文本编码器，无法做文搜图"
+      },
+      "cross_lingual": {}
+    },
+    {
+      "model": "jinaai/jina-clip-v2",
+      "note": "Jina CLIP v2 89语含日文 (1024d)",
+      "runnable": false,
+      "error": "OSError: We couldn't connect to 'https://hf-mirror.com' to load the files, and couldn't find them in the cached files.\nCheck your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.",
+      "traceback_tail": [
+        "    ) from e",
+        "OSError: We couldn't connect to 'https://hf-mirror.com' to load the files, and couldn't find them in the cached files.",
+        "Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'."
+      ]
+    },
+    {
+      "model": "openai/clip-vit-base-patch32",
+      "note": "OpenAI CLIP 基线 (512d)",
+      "runnable": true,
+      "kind": "hf_clip",
+      "dimension": 512,
+      "params_million": 151.3,
+      "device": "mps",
+      "model_load_seconds": 79.3,
+      "gallery_size": 122,
+      "encode_seconds": 4.43,
+      "avg_encode_ms_per_image": 36.3,
+      "has_text_encoder": true,
+      "t1_self_recall": {
+        "recall@1": 98.08,
+        "recall@3": 100.0,
+        "mrr": 0.9904,
+        "n_queries": 52
+      },
+      "t2_page_group_recall": {
+        "recall@1": 18.42,
+        "recall@3": 26.32,
+        "mrr": 0.2865,
+        "n_queries": 38
+      },
+      "t3_cross_modal": {
+        "recall@1": 0.0,
+        "recall@3": 10.0,
+        "mrr": 0.0809,
+        "n_queries": 20
+      },
+      "cross_lingual": {
+        "en": {
+          "recall@1": 0.0,
+          "recall@3": 25.0,
+          "mrr": 0.1288,
+          "n_queries": 4
+        },
+        "ja": {
+          "recall@1": 0.0,
+          "recall@3": 25.0,
+          "mrr": 0.1274,
+          "n_queries": 4
+        },
+        "zh": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "mrr": 0.0943,
+          "n_queries": 4
+        },
+        "pn": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "mrr": 0.027,
+          "n_queries": 8
+        }
+      }
+    },
+    {
+      "model": "rinna/japanese-clip-vit-b-16",
+      "note": "日文专用 CLIP (rinna)",
+      "runnable": true,
+      "kind": "hf_clip",
+      "dimension": 512,
+      "params_million": 196.6,
+      "device": "mps",
+      "model_load_seconds": 49.4,
+      "gallery_size": 122,
+      "encode_seconds": 3.91,
+      "avg_encode_ms_per_image": 32.0,
+      "has_text_encoder": false,
+      "image_processor_source": "borrowed_image_processor:openai/clip-vit-base-patch16",
+      "text_tower_issue": {
+        "reason": "文本塔权重与 HF 结构不匹配，未能加载（该仓库文本塔为自定义实现）",
+        "unexpected_text_keys": 197,
+        "missing_text_keys": 196,
+        "sample_unexpected": [
+          "text_model.embeddings.LayerNorm.bias",
+          "text_model.embeddings.LayerNorm.weight",
+          "text_model.embeddings.position_embeddings.weight"
+        ]
+      },
+      "t1_self_recall": {
+        "recall@1": 98.08,
+        "recall@3": 100.0,
+        "mrr": 0.9904,
+        "n_queries": 52
+      },
+      "t2_page_group_recall": {
+        "recall@1": 26.32,
+        "recall@3": 39.47,
+        "mrr": 0.3592,
+        "n_queries": 38
+      },
+      "t3_cross_modal": {
+        "runnable": false,
+        "reason": "文本塔权重未加载（拒绝用随机权重产出假分数）: 文本塔权重与 HF 结构不匹配，未能加载（该仓库文本塔为自定义实现）"
+      },
+      "cross_lingual": {}
+    },
+    {
+      "model": "google/siglip2-base-patch16-224",
+      "note": "Google SigLIP2 多语零样本 (768d)",
+      "runnable": true,
+      "kind": "hf_clip",
+      "dimension": 768,
+      "params_million": 375.2,
+      "device": "mps",
+      "model_load_seconds": 96.6,
+      "gallery_size": 122,
+      "encode_seconds": 7.14,
+      "avg_encode_ms_per_image": 58.5,
+      "has_text_encoder": true,
+      "image_processor_source": "from_model_repo",
+      "t1_self_recall": {
+        "recall@1": 98.08,
+        "recall@3": 100.0,
+        "mrr": 0.9904,
+        "n_queries": 52
+      },
+      "t2_page_group_recall": {
+        "recall@1": 26.32,
+        "recall@3": 31.58,
+        "mrr": 0.3603,
+        "n_queries": 38
+      },
+      "t3_cross_modal": {
+        "recall@1": 0.0,
+        "recall@3": 5.0,
+        "mrr": 0.0677,
+        "n_queries": 20
+      },
+      "cross_lingual": {
+        "en": {
+          "recall@1": 0.0,
+          "recall@3": 25.0,
+          "mrr": 0.1323,
+          "n_queries": 4
+        },
+        "ja": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "mrr": 0.0852,
+          "n_queries": 4
+        },
+        "zh": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "mrr": 0.0725,
+          "n_queries": 4
+        },
+        "pn": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "mrr": 0.0242,
+          "n_queries": 8
+        }
+      }
+    }
+  ]
+}

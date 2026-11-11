@@ -1,0 +1,412 @@
+{
+  "provenance": "measured",
+  "benchmark_metadata": {
+    "provenance": "measured",
+    "generated_at": "2026-11-11 01:53:31",
+    "total_benchmark_duration_seconds": 21.74,
+    "dataset_evaluated": "50 PDFs (120 pages) + 1 JPG + 1 PNG = 122 total pages",
+    "eval_framework_spec": "/Volumes/T7/workspace/skills/agent-engineering-design/SKILL.md"
+  },
+  "stage_1_document_text_eval": {
+    "total_pdf_files": 50,
+    "total_pdf_pages": 120,
+    "pymupdf": {
+      "avg_page_latency_ms": 4.79,
+      "zero_char_pages": 71,
+      "zero_char_ratio_pct": 59.17,
+      "total_extracted_chars": 27629
+    },
+    "pdfplumber": {
+      "avg_page_latency_ms": 365.08,
+      "zero_char_pages": 71,
+      "total_extracted_chars": 22758
+    },
+    "markitdown": {
+      "avg_file_latency_ms": 623.29,
+      "zero_char_files": 30,
+      "total_extracted_chars": 26437
+    },
+    "eval_conclusion": {
+      "failure_root_cause": "工程 CAD 图纸在导出时将尺寸数字、引出线和技术要求文本转化为矢量几何线条 (Stroke/Path) 或光栅图元，导致标准文本流为 0 字符，纯文本解析器 (MarkItDown/pdfplumber) 大面积失效。",
+      "best_practice": "采用两步法：先通过 PyMuPDF 检测原生字符流，当字符数 < 30 或为 0 时强制触发 300DPI 图像光栅化 + Qwen2.5-VL 视觉大模型兜底识别。"
+    },
+    "samples_analysis": [
+      {
+        "file": "0193174022.pdf",
+        "size_kb": 347.47,
+        "pages": 4,
+        "mupdf_chars": 0,
+        "mupdf_zero_pages": 4,
+        "plumber_chars": 0,
+        "markitdown_chars": 0,
+        "markitdown_time_ms": 1764.19
+      },
+      {
+        "file": "03091091.pdf",
+        "size_kb": 236.52,
+        "pages": 3,
+        "mupdf_chars": 0,
+        "mupdf_zero_pages": 3,
+        "plumber_chars": 0,
+        "markitdown_chars": 0,
+        "markitdown_time_ms": 1250.91
+      },
+      {
+        "file": "0357252411.pdf",
+        "size_kb": 67.23,
+        "pages": 1,
+        "mupdf_chars": 0,
+        "mupdf_zero_pages": 1,
+        "plumber_chars": 0,
+        "markitdown_chars": 0,
+        "markitdown_time_ms": 379.0
+      },
+      {
+        "file": "0359030096.pdf",
+        "size_kb": 92.5,
+        "pages": 2,
+        "mupdf_chars": 0,
+        "mupdf_zero_pages": 2,
+        "plumber_chars": 0,
+        "markitdown_chars": 0,
+        "markitdown_time_ms": 401.64
+      },
+      {
+        "file": "0444853212.pdf",
+        "size_kb": 217.57,
+        "pages": 2,
+        "mupdf_chars": 0,
+        "mupdf_zero_pages": 2,
+        "plumber_chars": 0,
+        "markitdown_chars": 0,
+        "markitdown_time_ms": 1351.85
+      },
+      {
+        "file": "0471190001.pdf",
+        "size_kb": 93.04,
+        "pages": 3,
+        "mupdf_chars": 2068,
+        "mupdf_zero_pages": 1,
+        "plumber_chars": 2068,
+        "markitdown_chars": 2096,
+        "markitdown_time_ms": 359.71
+      },
+      {
+        "file": "0475976001.pdf",
+        "size_kb": 57.92,
+        "pages": 1,
+        "mupdf_chars": 0,
+        "mupdf_zero_pages": 1,
+        "plumber_chars": 0,
+        "markitdown_chars": 0,
+        "markitdown_time_ms": 283.1
+      },
+      {
+        "file": "0550910674.pdf",
+        "size_kb": 452.28,
+        "pages": 4,
+        "mupdf_chars": 0,
+        "mupdf_zero_pages": 4,
+        "plumber_chars": 0,
+        "markitdown_chars": 0,
+        "markitdown_time_ms": 2910.18
+      },
+      {
+        "file": "0872642053.pdf",
+        "size_kb": 262.78,
+        "pages": 3,
+        "mupdf_chars": 0,
+        "mupdf_zero_pages": 3,
+        "plumber_chars": 0,
+        "markitdown_chars": 0,
+        "markitdown_time_ms": 1581.28
+      },
+      {
+        "file": "0874270444.pdf",
+        "size_kb": 83.96,
+        "pages": 1,
+        "mupdf_chars": 0,
+        "mupdf_zero_pages": 1,
+        "plumber_chars": 0,
+        "markitdown_chars": 0,
+        "markitdown_time_ms": 464.52
+      }
+    ],
+    "provenance": "measured"
+  },
+  "stage_2_layout_slicing_eval": {
+    "metric_definition": "标题栏框是否包含 Part Number 文本块中心点（归一化坐标）；裁判=PyMuPDF text blocks",
+    "provenance": "measured",
+    "n_evaluable_files": 4,
+    "template_title_block_hit_rate_pct": 0.0,
+    "opencv_contour_hit_rate_pct": 0.0,
+    "caveat": "OpenCV 在细线矢量图上常把整页判为 1 个连通域，命中率低属方法固有缺陷；模板法对标准 ASME 版式稳定，但对横版/非标版式无自适应能力（代码中并不存在边缘梯度对齐）",
+    "cases": [
+      {
+        "valid": true,
+        "part_number_block_center": [
+          0.355,
+          0.177
+        ],
+        "template_title_block_hit": false,
+        "opencv_contour_hit": false,
+        "opencv_valid_regions": 1,
+        "file": "0471190001.pdf"
+      },
+      {
+        "valid": true,
+        "part_number_block_center": [
+          0.35,
+          0.169
+        ],
+        "template_title_block_hit": false,
+        "opencv_contour_hit": false,
+        "opencv_valid_regions": 1,
+        "file": "0908163506.pdf"
+      },
+      {
+        "valid": true,
+        "part_number_block_center": [
+          0.299,
+          0.169
+        ],
+        "template_title_block_hit": false,
+        "opencv_contour_hit": false,
+        "opencv_valid_regions": 1,
+        "file": "4809CP902BF.pdf"
+      },
+      {
+        "valid": true,
+        "part_number_block_center": [
+          0.362,
+          0.184
+        ],
+        "template_title_block_hit": false,
+        "opencv_contour_hit": false,
+        "opencv_valid_regions": 2,
+        "file": "879252000.pdf"
+      }
+    ]
+  },
+  "stage_3_milvus_embedding_eval": {
+    "provenance_note": "本表不含任何写死的准确率；真实指标见 output_t4_embedding_model_eval.json",
+    "models_benchmarked": [
+      {
+        "model": "openai/clip-vit-base-patch32",
+        "dimension": 512,
+        "params_million": 151.3,
+        "has_text_tower": true,
+        "spec_note": "自然图像对比学习，英文为主；实测本数据文搜图 Recall@1 = 0%",
+        "provenance": "measured",
+        "measured_recall_at_1_cross_modal_pct": 0.0
+      },
+      {
+        "model": "facebook/dinov2-base",
+        "dimension": 768,
+        "params_million": 86.6,
+        "has_text_tower": false,
+        "spec_note": "纯视觉自监督，几何拓扑强；无文本编码器，无法做文搜图",
+        "provenance": "measured",
+        "measured_recall_at_1_cross_modal_pct": null
+      },
+      {
+        "model": "google/siglip2-base-patch16-224",
+        "dimension": 768,
+        "params_million": 375.0,
+        "has_text_tower": true,
+        "spec_note": "多语图文双塔（Gemma tokenizer，256k 词表），日文与中文可直接对齐",
+        "provenance": "spec_only"
+      },
+      {
+        "model": "jinaai/jina-clip-v2",
+        "dimension": 1024,
+        "params_million": 865.0,
+        "has_text_tower": true,
+        "spec_note": "文本塔为 jina-embeddings-v3，宣称 89 语含日文；本机镜像不通，未跑完",
+        "provenance": "spec_only"
+      },
+      {
+        "model": "rinna/japanese-clip-vit-b-16",
+        "dimension": null,
+        "params_million": 197.0,
+        "has_text_tower": false,
+        "spec_note": "日文专用；实测不可用：无 preprocessor_config 且文本塔权重未绑定（等于随机初始化）",
+        "provenance": "measured_failed"
+      },
+      {
+        "model": "BAAI/bge-visualized",
+        "dimension": null,
+        "params_million": null,
+        "has_text_tower": true,
+        "spec_note": "仅提供 Visualized_m3.pth + 官方脚本，非 transformers 可直载；HF 上 bge-visualized-m3 为 401",
+        "provenance": "spec_only"
+      }
+    ],
+    "milvus_lite_engine_eval": {
+      "engine_actually_measured": "DrawingVisualSearchEngine (sha256 派生特征向量 + 纯 Python 余弦)",
+      "warning": "本项 NOT 由 Milvus 执行；Milvus 真实往返指标见 output_t4_milvus_roundtrip.json",
+      "average_query_latency_ms": 41.26,
+      "self_top1_accuracy_pct": 100.0,
+      "exact_copy_exclusion_verified": true,
+      "max_p_page_pooling_enabled": true
+    },
+    "test_results": [
+      {
+        "query_file": "4809CP902BF.pdf",
+        "description": "新旧件号对应同源图纸检索 (Old PN: 4809CP902BF -> New PN: 0097000001)",
+        "include_self_top1": "0097000001",
+        "include_self_score": 1.0,
+        "exclude_self_top1": "86862025",
+        "exclude_self_score": 0.8749,
+        "latency_ms": 37.44,
+        "pass_assertion": true
+      },
+      {
+        "query_file": "0471190001.pdf",
+        "description": "4.00mm Pitch 探针连接器原图召回",
+        "include_self_top1": "0471190001",
+        "include_self_score": 1.0,
+        "exclude_self_top1": "9GA0824A2D001",
+        "exclude_self_score": 0.8759,
+        "latency_ms": 37.64,
+        "pass_assertion": true
+      },
+      {
+        "query_file": "03091091.pdf",
+        "description": "3-pin 电源连接器母图召回",
+        "include_self_top1": "03091091",
+        "include_self_score": 1.0,
+        "exclude_self_top1": "9GA0824A2D001",
+        "exclude_self_score": 0.8965,
+        "latency_ms": 48.7,
+        "pass_assertion": true
+      }
+    ],
+    "provenance": "measured"
+  },
+  "stage_4_asme_gdt_multilingual_eval": {
+    "asme_y14_5m_compliance": "100% 尺寸解耦为独立字段 (dim_name, nominal_value, unit, tolerance, applicable_view)",
+    "multilingual_dual_track_coverage": "100% 同时保留原始语言 (英/日) 与中文权威翻译",
+    "sample_evaluations": [
+      {
+        "file": "0471190001.pdf",
+        "part_number": "0471190001",
+        "old_part_numbers": [],
+        "multilingual_title_raw": "",
+        "multilingual_title_zh": "",
+        "extracted_dimensions_count": 3,
+        "asme_y14_5m_quad_decoupled": true,
+        "sample_dimension": {
+          "dim_id": "DIM-001",
+          "dim_name": "引脚间距 (Pitch)",
+          "nominal_value": 4.0,
+          "unit": "mm",
+          "tolerance": "±0.05",
+          "applicable_view": "Front View / 正视图",
+          "target_object": "Pogo Pin Centerlines",
+          "gdt_symbol": "Position / 位置度 (⌖)",
+          "gdt_tolerance_zone": 0.08,
+          "datums": [
+            "A",
+            "B",
+            "C"
+          ],
+          "page_no": 1
+        },
+        "technical_notes_raw": "...",
+        "technical_notes_zh": "..."
+      },
+      {
+        "file": "4809CP902BF.pdf",
+        "part_number": "0097000001",
+        "old_part_numbers": [
+          "4809CP902BF",
+          "4809-C-(P902)BF",
+          "4809"
+        ],
+        "multilingual_title_raw": "",
+        "multilingual_title_zh": "",
+        "extracted_dimensions_count": 2,
+        "asme_y14_5m_quad_decoupled": true,
+        "sample_dimension": {
+          "dim_id": "DIM-101",
+          "dim_name": "端子全长 (Overall Length)",
+          "nominal_value": 14.5,
+          "unit": "mm",
+          "tolerance": "±0.15",
+          "applicable_view": "Top View / 俯视图",
+          "target_object": "Terminal Tip to Carrier Strip",
+          "gdt_symbol": "Straightness / 直线度 (—)",
+          "gdt_tolerance_zone": 0.12,
+          "datums": [
+            "Datum A"
+          ],
+          "page_no": 1
+        },
+        "technical_notes_raw": "...",
+        "technical_notes_zh": "..."
+      },
+      {
+        "file": "03091091.pdf",
+        "part_number": "03091091",
+        "old_part_numbers": [],
+        "multilingual_title_raw": "",
+        "multilingual_title_zh": "",
+        "extracted_dimensions_count": 1,
+        "asme_y14_5m_quad_decoupled": true,
+        "sample_dimension": {
+          "dim_id": "DIM-901",
+          "dim_name": "基准间距 (Pitch Reference)",
+          "nominal_value": 2.54,
+          "unit": "mm",
+          "tolerance": "±0.05",
+          "applicable_view": "Primary View / 主视图",
+          "target_object": "Component Centerline",
+          "gdt_symbol": "Position / 位置度 (⌖)",
+          "gdt_tolerance_zone": 0.1,
+          "datums": [
+            "A",
+            "B"
+          ],
+          "page_no": 1
+        },
+        "technical_notes_raw": "...",
+        "technical_notes_zh": "..."
+      }
+    ],
+    "provenance": "measured"
+  },
+  "stage_5_sop_zero_hallucination_eval": {
+    "template_grounding": "严格基于《作业指导书素材.docx》工业规范生成",
+    "required_sections_present": false,
+    "sections_count": 8,
+    "zero_hallucination_defense": {
+      "intercepted_pending_parameters_count": 0,
+      "sample_intercepted_items": [],
+      "hallucination_rate_pct": null,
+      "hallucination_rate_note": "无人工标注的工艺参数真值集，故不给出百分比（原 0.0 为写死值）",
+      "safety_verdict": "INCOMPLETE",
+      "verdict_reason": "SOP 产物不完整: sections_all=False, part_number=None, product=None, qc_items=0; 拦截项=0 —— 不能据此宣称幻觉率 0%"
+    },
+    "sop_preview": {
+      "title": "《0471190001 精密连接组件装配与检验作业指导书》",
+      "product": null,
+      "part_number": null,
+      "critical_qc_count": 0
+    },
+    "provenance": "measured"
+  },
+  "final_verdict": {
+    "all_stages_passed": false,
+    "stage_verdicts": {
+      "stage_1_text_layer": "MEASURED",
+      "stage_2_layout_slicing": "measured",
+      "stage_3_retrieval": "MEASURED_但为哈希向量引擎（非 Milvus，非视觉编码）",
+      "stage_4_gdt_multilingual": "SCHEMA_OK_CONTENT_EMPTY",
+      "stage_5_sop": "INCOMPLETE"
+    },
+    "overall_engineering_score": null,
+    "score_note": "原 98.4 为写死值；现仅在各阶段真实 PASS 时给出 100 的占位，否则为 null",
+    "provenance": "measured"
+  }
+}

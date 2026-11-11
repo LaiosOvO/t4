@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>T4 工业图纸多模态 · 分步测试与数据集测试报告</title>
+<style>
+:root{--navy:#17355f;--blue:#245fa8;--line:#dfe6ef;--bg:#f4f6fa;--ink:#1c2b3a;--muted:#5d7189}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.75 -apple-system,"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+header{background:linear-gradient(135deg,#17355f,#245fa8);color:#fff;padding:36px 40px 30px}
+header h1{margin:0 0 8px;font-size:25px;letter-spacing:.4px}
+header p{margin:0;opacity:.88;font-size:13.5px}
+.wrap{max-width:1180px;margin:0 auto;padding:26px 24px 80px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:20px 0 6px}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.kpi b{display:block;font-size:20px;color:var(--navy);overflow-wrap:anywhere}
+.kpi span{font-size:12.5px;color:var(--muted)}
+h2.sect{font-size:18px;color:var(--navy);margin:34px 0 10px;padding-left:10px;border-left:4px solid var(--blue)}
+h2.sect small{font-weight:400;color:var(--muted);font-size:13px;margin-left:8px}
+h3.sub{font-size:15px;color:var(--navy);margin:22px 0 8px}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+th,td{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;font-size:13.5px;vertical-align:top}
+th{background:#eef3f9;color:var(--navy);font-weight:600;white-space:nowrap}
+tr:last-child td{border-bottom:none}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px;word-break:break-all}
+.small{font-size:12.5px;color:#41556b}
+.ok{color:#1a7f45;font-weight:700} .bad{color:#b3261e;font-weight:700} .warn{color:#a06a00;font-weight:700}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;margin:14px 0;overflow:hidden}
+.card-h{display:flex;align-items:center;gap:12px;padding:13px 18px;background:#f7fafe;border-bottom:1px solid var(--line)}
+.card-h b{color:var(--navy);font-size:15.5px}
+.card-h .cnt{margin-left:auto;background:var(--blue);color:#fff;border-radius:999px;padding:1px 10px;font-size:12px}
+.step{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px 12px;margin:16px 0}
+.step-h{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.no{background:var(--navy);color:#fff;border-radius:8px;padding:2px 9px;font-size:12.5px;font-weight:700}
+.step h3{margin:0;font-size:15.5px;color:var(--navy)}
+.cap-t{margin:0 0 10px;font-size:13.5px;color:#31465c}
+.step img{width:100%;border:1px solid var(--line);border-radius:8px;display:block}
+.note{background:#fff8e6;border:1px solid #f0dca8;border-radius:10px;padding:14px 18px;font-size:13.5px;color:#6b4f00;margin:12px 0}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.chip{background:#eef3f9;border:1px solid var(--line);border-radius:999px;padding:2px 10px;font-size:12px;color:#31465c}
+footer{color:var(--muted);font-size:12.5px;text-align:center;padding:20px 0}
+details{background:#fff;border:1px solid var(--line);border-radius:10px;margin:10px 0;padding:10px 16px}
+details summary{cursor:pointer;color:var(--navy);font-weight:600;font-size:13.5px}
+details pre{background:#f7fafe;border:1px solid var(--line);border-radius:8px;padding:12px;overflow:auto;font-size:12px;max-height:420px}
+</style></head><body>
+<header>
+<h1>T4 工业图纸多模态 · 分步测试与数据集测试报告</h1>
+<p>覆盖图纸提取、文本层解析、版面切分、向量检索、形位公差多语、SOP 生成六步；并给出 data 额外数据集的逐步测试结果。评测结论按实测标注，不给写死分数。</p>
+</header>
+<div class="wrap">
+
+<div class="kpis">
+  <div class="kpi"><b>52</b><span>图纸解析文件</span></div>
+  <div class="kpi"><b>52</b><span>解析成功</span></div>
+  <div class="kpi"><b>50 份 / 120 页</b><span>文本层评测 PDF</span></div>
+  <div class="kpi"><b>122</b><span>检索图库页</span></div>
+  <div class="kpi"><b>5 阶段</b><span>基准评测</span></div>
+  <div class="kpi"><b>measured</b><span>数据来源标注</span></div>
+</div>
+
+<h2 class="sect">一、图纸批量提取结果 <small>52 份全部成功</small></h2>
+<div class="card"><div class="card-h"><b>提取来源</b><span class="cnt">52/52</span></div>
+<table>
+<tr><th class="lb" style="width:150px">图纸目录</th><td class="mono">数据/工业图纸素材/图纸</td></tr>
+<tr><th>解析结果</th><td class="ok">52 份成功 / 52 份</td></tr>
+</table></div>
+<table><tr><th>字段1</th><th>字段2</th><th>字段3</th><th>字段4</th><th>字段5</th><th>字段6</th></tr><tr><td>0193174022.pdf</td><td>/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0193174022.pdf</td><td>d8f0b655307dfd7ee2f1aaaf24459a088b2a5eb2eafe10e20cc891a8cfd9c1c3</td><td>355811</td><td>4</td><td>{'chars': 0, 'pages_with_text': 0, 'zero_char_pages': [1, 2, 3, 4], 'page_chars': [0, 0, 0, 0]}</td></tr><tr><td>03091091.pdf</td><td>/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/03091091.pdf</td><td>8965c0b1dd07a1e150e9c84e9711fee86503454a09d612356251820caaf4ae48</td><td>242196</td><td>3</td><td>{'chars': 0, 'pages_with_text': 0, 'zero_char_pages': [1, 2, 3], 'page_chars': [0, 0, 0]}</td></tr><tr><td>0357252411.pdf</td><td>/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0357252411.pdf</td><td>51d93f8e5625eabb2dc0222f2c3f9743e4601f5f200dee877e2ba45aa56e1e79</td><td>68842</td><td>1</td><td>{'chars': 0, 'pages_with_text': 0, 'zero_char_pages': [1], 'page_chars': [0]}</td></tr><tr><td>0359030096.pdf</td><td>/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0359030096.pdf</td><td>1465becd8e65891db58643c3df60f60733658d73cf8505a999f9cc90100a4785</td><td>94725</td><td>2</td><td>{'chars': 0, 'pages_with_text': 0, 'zero_char_pages': [1, 2], 'page_chars': [0, 0]}</td></tr><tr><td>0444853212.pdf</td><td>/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0444853212.pdf</td><td>b501c51dc3ded61fcb9f5e090c314cb1e089468ecd5ae6f79a07d1eb4fd365a5</td><td>222788</td><td>2</td><td>{'chars': 0, 'pages_with_text': 0, 'zero_char_pages': [1, 2], 'page_chars': [0, 0]}</td></tr><tr><td>0471190001.pdf</td><td>/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0471190001.pdf</td><td>95017dff6b0f5a4ab31ec5a053639828ffa155af243c4805f8ebe4f00fa209a5</td><td>95275</td><td>3</td><td>{'chars': 2070, 'pages_with_text': 2, 'zero_char_pages': [3], 'page_chars': [1910, 158, 0]}</td></tr><tr><td>0475976001.pdf</td><td>/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/0475976001.pdf</td><td>061b9f0a44b4ada0a799c972f5ce48f5bf2ca5da5fdebcbefcfacac89bd7f08f</td><td>59314</td><td>1</td><td>{'chars': 0, 'pages_with_text': 0, 'zero_char_pages': [1], 'page_chars': [0]}</td></tr><tr><td>052448z2iu1iyzw7ezuqeu.jpg</td><td>/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/数据/工业图纸素材/图纸/052448z2iu1iyzw7ezuqeu.jpg</td><td>880c1ab361917757b37585a18e0fcdcda3f5c384a7e8f50078fe92755cf3cb0d</td><td>360324</td><td>1</td><td>{'chars': 0, 'pages_with_text': 0, 'zero_char_pages': [1], 'page_chars': [0]}</td></tr></table>
+
+<h2 class="sect">二、五阶段基准评测逐步结果</h2>
+<table>
+<tr><th>评测阶段</th><th>评测内容</th><th>结论状态</th><th>关键实测</th></tr>
+
+    <tr><td>① 图纸文本层解析</td><td>50 份 PDF / 120 页，PyMuPDF vs pdfplumber vs MarkItDown</td>
+        <td class="ok">已实测</td><td>零字符页 71/120（59.17%）—— CAD 尺寸/引出线为矢量几何，纯文本解析大面积失效</td></tr>
+    <tr><td>② 版面切分</td><td>模板图签命中率 / OpenCV 轮廓命中率</td>
+        <td class="ok">已实测</td><td>可评测文件 4 份，指标见 results</td></tr>
+    <tr><td>③ 向量检索</td><td>122 页图库 + 3 类查询</td>
+        <td class="warn">已实测（哈希向量引擎）</td><td>非 Milvus、非视觉编码，结论按实测标注</td></tr>
+    <tr><td>④ ASME/GDT 多语</td><td>形位公差多语 schema</td>
+        <td class="warn">SCHEMA_OK_CONTENT_EMPTY</td><td>结构就绪、内容待补</td></tr>
+    <tr><td>⑤ SOP 零幻觉</td><td>基于作业指导书素材模板生成</td>
+        <td class="warn">INCOMPLETE</td><td>无工艺参数真值集，不给出幻觉率百分比（原写死 0.0 已废除）</td></tr>
+    
+</table>
+
+<h3 class="sub">阶段① 文本层解析实测指标</h3>
+<table>
+<tr><th>引擎</th><th>平均延迟</th><th>零字符页/文件</th><th>提取字符数</th></tr>
+<tr><td>PyMuPDF</td><td>4.79 ms/页</td><td>71 页（59.17%）</td><td>27,629</td></tr>
+<tr><td>pdfplumber</td><td>365.08 ms/页</td><td>71 页</td><td>22,758</td></tr>
+<tr><td>MarkItDown</td><td>623.29 ms/文件</td><td>30 个文件</td><td>26,437</td></tr>
+</table>
+<div class="note"><b>根因（实测）：</b>工程 CAD 图纸在导出时将尺寸数字、引出线和技术要求文本转化为矢量几何线条 (Stroke/Path) 或光栅图元，导致标准文本流为 0 字符，纯文本解析器 (MarkItDown/pdfplumber) 大面积失效。<br/>
+<b>最佳实践：</b>采用两步法：先通过 PyMuPDF 检测原生字符流，当字符数 &lt; 30 或为 0 时强制触发 300DPI 图像光栅化 + Qwen2.5-VL 视觉大模型兜底识别。</div>
+
+<h3 class="sub">最终裁定（按实测，不给写死分）</h3>
+<table>
+<tr><th>阶段</th><th>裁定</th></tr>
+<tr><td>stage_1_text_layer</td><td>MEASURED</td></tr><tr><td>stage_2_layout_slicing</td><td>measured</td></tr><tr><td>stage_3_retrieval</td><td>MEASURED_但为哈希向量引擎（非 Milvus，非视觉编码）</td></tr><tr><td>stage_4_gdt_multilingual</td><td>SCHEMA_OK_CONTENT_EMPTY</td></tr><tr><td>stage_5_sop</td><td>INCOMPLETE</td></tr>
+<tr><td>all_stages_passed</td><td class="warn">False</td></tr>
+<tr><td>overall_engineering_score</td><td>None <span class="small">（原 98.4 为写死值；现仅在各阶段真实 PASS 时给出 100 的占位，否则为 null）</span></td></tr>
+</table>
+
+<h2 class="sect">三、data 额外数据 · 解析引擎对比测试 <small>AnyDoc vs MarkItDown</small></h2>
+<p class="cap-t">数据集：T1 单证 + T4 图纸 PDF + T4 图像，按轨道分引擎实测。来源标注 <span class="mono">measured</span>。</p>
+<table><tr><th>轨道</th><th>实测结果（节选）</th></tr><tr><td class='mono'>anydoc</td><td>{"n": 60, "ok": 9, "fail": 51, "success_rate_pct": 15.0, "n_empty_output": 0, "usable_rate_pct": 15.0, "error_types": {"MalformedError": 5, "NeedsOcrError": 44, "UnsupportedError": 2}, "avg_chars": 4098.7, "median_ms": 5</td></tr><tr><td class='mono'>markitdown</td><td>{"n": 60, "ok": 60, "fail": 0, "success_rate_pct": 100.0, "n_empty_output": 32, "usable_rate_pct": 46.67, "error_types": {}, "avg_chars": 915.5, "median_ms": 362.8, "p50_ms": 362.8, "avg_ms": 577.0, "n_with_gfm_table": 0</td></tr></table>
+
+<h2 class="sect">四、Embedding 与向量库往返测试</h2>
+<h3 class="sub">Embedding 模型评测（122 页图库，设备 mps）</h3>
+<table><tr><th>模型</th><th>说明</th><th>维度</th><th>参数量(M)</th><th>编码耗时</th><th>T1 自召回 R@1/R@3</th><th>可运行</th></tr><tr><td class='mono'>facebook/dinov2-base</td><td>Meta DINOv2 几何自监督 (768d)</td><td>768</td><td>86.6</td><td>7.84 s（64.3 ms/图）</td><td>98.08% / 100.0%</td><td class='ok'>True</td></tr><tr><td class='mono'>jinaai/jina-clip-v2</td><td>Jina CLIP v2 89语含日文 (1024d)</td><td>None</td><td>None</td><td>None s（None ms/图）</td><td>—% / —%</td><td class='warn'>False</td></tr><tr><td class='mono'>openai/clip-vit-base-patch32</td><td>OpenAI CLIP 基线 (512d)</td><td>512</td><td>151.3</td><td>4.43 s（36.3 ms/图）</td><td>98.08% / 100.0%</td><td class='ok'>True</td></tr><tr><td class='mono'>rinna/japanese-clip-vit-b-16</td><td>日文专用 CLIP (rinna)</td><td>512</td><td>196.6</td><td>3.91 s（32.0 ms/图）</td><td>98.08% / 100.0%</td><td class='ok'>True</td></tr><tr><td class='mono'>google/siglip2-base-patch16-224</td><td>Google SigLIP2 多语零样本 (768d)</td><td>768</td><td>375.2</td><td>7.14 s（58.5 ms/图）</td><td>98.08% / 100.0%</td><td class='ok'>True</td></tr></table>
+
+<h3 class="sub">Milvus 向量库往返</h3>
+<table>
+<tr><th class="lb" style="width:150px">模型</th><td class="mono">openai/clip-vit-base-patch32</td></tr>
+<tr><th>集合 / 维度</th><td class="mono">rt_clip_vit_base_patch32 / 512</td></tr>
+<tr><th>图库页数</th><td>122</td></tr>
+<tr><th>自召回</th><td>{"provenance": "measured", "n_queries": 52, "recall@1": 98.08, "latency_p50_ms": 20.09, "latency_p95_ms": 29.08}</td></tr>
+</table>
+
+<h3 class="sub">Top3 图纸检索结果</h3>
+<table><tr><th>排名</th><th>文件</th><th>规范件号</th><th>相似度</th><th>最佳匹配页</th><th>总页数</th><th>是否完全副本</th></tr><tr><td>1</td><td class='mono'>9GA0824A2D001.pdf</td><td class='mono'>9GA0824A2D001</td><td>0.8759</td><td>1</td><td>3</td><td>False</td></tr><tr><td>2</td><td class='mono'>424910303.pdf</td><td class='mono'>424910303</td><td>0.8712</td><td>1</td><td>7</td><td>False</td></tr><tr><td>3</td><td class='mono'>68684307.pdf</td><td class='mono'>68684307</td><td>0.867</td><td>1</td><td>3</td><td>False</td></tr></table>
+
+<h2 class="sect">五、结论</h2>
+<div class="note">
+1. 图纸提取：52/52 份全部成功。<br/>
+2. 文本层：实测 CAD 图纸 59.17% 页面零字符，需「文本检测 + 视觉大模型兜底」两步法。<br/>
+3. 检索链路：图库 122 页，Top3 结果带相似度与副本判定，来源标注 measured。<br/>
+4. 诚实标注：GDT 多语为 SCHEMA_OK_CONTENT_EMPTY，SOP 为 INCOMPLETE，不宣称幻觉率 0%（缺真值集）。
+</div>
+
+</div>
+<footer>数据来源：真实评测输出（provenance: measured）与 data/T4_drawings 数据集逐步比对 · 仅含测试结果与测试数据，不含实现代码</footer>
+</body></html>

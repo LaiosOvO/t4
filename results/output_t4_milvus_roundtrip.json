@@ -1,0 +1,228 @@
+{
+  "provenance": "measured",
+  "generated_at": "2026-11-11 01:37:05",
+  "model": "openai/clip-vit-base-patch32",
+  "collection": "rt_clip_vit_base_patch32",
+  "engine": "Milvus Lite (pymilvus MilvusClient)",
+  "vector_dimension": 512,
+  "gallery_pages": 122,
+  "insert": {
+    "provenance": "measured",
+    "rows": 122,
+    "insert_ms": 142.9,
+    "ms_per_row": 1.171
+  },
+  "encode": {
+    "provenance": "measured",
+    "seconds": 5.47,
+    "ms_per_page": 44.8
+  },
+  "health": {
+    "status": "CONNECTED",
+    "db_path": "/Users/admin/Desktop/data/fde/matrixnext/T4-工业图纸多模态智能应用智能体/app/storage/milvus/t4_roundtrip.db",
+    "collection": "rt_clip_vit_base_patch32",
+    "dimension": 512,
+    "row_count": 122,
+    "provenance": "measured"
+  },
+  "image_query_excluding_copy": {
+    "provenance": "measured",
+    "n_queries": 52,
+    "copy_exclusion_enforced": "52/52",
+    "same_file_recall@1": 0.0,
+    "same_file_recall@3": 0.0,
+    "latency_p50_ms": 23.05,
+    "latency_p95_ms": 44.25
+  },
+  "image_self_recall": {
+    "provenance": "measured",
+    "n_queries": 52,
+    "recall@1": 98.08,
+    "latency_p50_ms": 20.09,
+    "latency_p95_ms": 29.08
+  },
+  "text_to_image": {
+    "provenance": "measured",
+    "runnable": true,
+    "n_queries": 20,
+    "recall@1": 0.0,
+    "recall@3": 10.0,
+    "latency_p50_ms": 20.46,
+    "latency_p95_ms": 30.59,
+    "per_lang_recall@1": {
+      "en": 0.0,
+      "ja": 0.0,
+      "zh": 0.0,
+      "pn": 0.0
+    },
+    "details": [
+      {
+        "query_id": "sem_0471190001_en",
+        "lang": "en",
+        "top1": "68684307_p3",
+        "score": 0.2679,
+        "hit1": false,
+        "hit3": false
+      },
+      {
+        "query_id": "sem_0471190001_ja",
+        "lang": "ja",
+        "top1": "CA218216R_p1",
+        "score": 0.2584,
+        "hit1": false,
+        "hit3": false
+      },
+      {
+        "query_id": "sem_0471190001_zh",
+        "lang": "zh",
+        "top1": "CA218216R_p1",
+        "score": 0.2726,
+        "hit1": false,
+        "hit3": false
+      },
+      {
+        "query_id": "sem_0908163506_en",
+        "lang": "en",
+        "top1": "68684307_p3",
+        "score": 0.2786,
+        "hit1": false,
+        "hit3": false
+      },
+      {
+        "query_id": "sem_0908163506_ja",
+        "lang": "ja",
+        "top1": "0357252411_p1",
+        "score": 0.2444,
+        "hit1": false,
+        "hit3": false
+      },
+      {
+        "query_id": "sem_0908163506_zh",
+        "lang": "zh",
+        "top1": "CA218216R_p1",
+        "score": 0.2652,
+        "hit1": false,
+        "hit3": false
+      },
+      {
+        "query_id": "sem_4809CP902BF_en",
+        "lang": "en",
+        "top1": "3000H4CB1_p1",
+        "score": 0.253,
+        "hit1": false,
+        "hit3": true
+      },
+      {
+        "query_id": "sem_4809CP902BF_ja",
+        "lang": "ja",
+        "top1": "CA218216R_p1",
+        "score": 0.2863,
+        "hit1": false,
+        "hit3": true
+      },
+      {
+        "query_id": "sem_4809CP902BF_zh",
+        "lang": "zh",
+        "top1": "879252000_p2",
+        "score": 0.2325,
+        "hit1": false,
+        "hit3": false
+      },
+      {
+        "query_id": "sem_879252000_en",
+        "lang": "en",
+        "top1": "68684307_p1",
+        "score": 0.276,
+        "hit1": false,
+        "hit3": false
+      },
+      {
+        "query_id": "sem_879252000_ja",
+        "lang": "ja",
+        "top1": "CA218216R_p1",
+        "score": 0.2644,
+        "hit1": false,
+        "hit3": false
+      },
+      {
+        "query_id": "sem_879252000_zh",
+        "lang": "zh",
+        "top1": "4809CP902BF_p3",
+        "score": 0.2859,
+        "hit1": false,
+        "hit3": false
+      },
+      {
+        "query_id": "pn_500091053C",
+        "lang": "pn",
+        "top1": "CSV-R_865489_p1",
+        "score": 0.2503,
+        "hit1": false,
+        "hit3": false
+      },
+      {
+        "query_id": "pn_68682Y24",
+        "lang": "pn",
+        "top1": "CSV-R_865489_p1",
+        "score": 0.2512,
+        "hit1": false,
+        "hit3": false
+      },
+      {
+        "query_id": "pn_86858315",
+        "lang": "pn",
+        "top1": "03091091_p2",
+        "score": 0.2236,
+        "hit1": false,
+        "hit3": false
+      },
+      {
+        "query_id": "pn_86859215",
+        "lang": "pn",
+        "top1": "03091091_p2",
+        "score": 0.2252,
+        "hit1": false,
+        "hit3": false
+      },
+      {
+        "query_id": "pn_86860237",
+        "lang": "pn",
+        "top1": "03091091_p2",
+        "score": 0.2369,
+        "hit1": false,
+        "hit3": false
+      },
+      {
+        "query_id": "pn_86862025",
+        "lang": "pn",
+        "top1": "03091091_p2",
+        "score": 0.2378,
+        "hit1": false,
+        "hit3": false
+      },
+      {
+        "query_id": "pn_87734718",
+        "lang": "pn",
+        "top1": "03091091_p2",
+        "score": 0.2318,
+        "hit1": false,
+        "hit3": false
+      },
+      {
+        "query_id": "pn_92265007LF",
+        "lang": "pn",
+        "top1": "03091091_p2",
+        "score": 0.2456,
+        "hit1": false,
+        "hit3": false
+      }
+    ]
+  },
+  "numpy_bruteforce_baseline": {
+    "provenance": "measured",
+    "n_queries": 52,
+    "latency_p50_ms": 0.01,
+    "latency_p95_ms": 0.01,
+    "note": "122 条规模下 numpy 精确检索往往不比 Milvus Lite FLAT 慢；Milvus 的价值在标量过滤、持久化与规模化"
+  }
+}
